@@ -1,11 +1,8 @@
-# Private documents.
-*.doc
-*.docx
-*.xls
-*.xlsx
-*.ppt
-*.pptx
-Simulations/
+# LTSpice.
+Simulations/*.log
+Simulations/*.net
+Simulations/*.op.raw
+Simulations/*.raw
 
 # MPLAB X.
 *.d
