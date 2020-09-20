@@ -1,0 +1,13 @@
+# Class-A Headphone Amplifier
+
+A minimalistic discrete desktop class-A headphone amplifier.
+
+## Follow Along
+
+If you want to learn more about this project and also follow along its journey,
+check out the [project's YouTube playlist](https://www.youtube.com/playlist?list=PLbjMhZ3Qv6a8xDwKZuQG69gMUy-2NGEBN).
+
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
