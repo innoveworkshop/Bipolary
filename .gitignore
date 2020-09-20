@@ -4,30 +4,6 @@ Simulations/*.net
 Simulations/*.op.raw
 Simulations/*.raw
 
-# MPLAB X.
-*.d
-*.pre
-*.p1
-*.lst
-*.sym
-*.obj
-*.o
-*.sdb
-*.obj.dmp
-*.map
-*.X/html/
-*.X/nbproject/private/
-*.X/nbproject/Package-*.bash
-*.X/build/
-*.X/nbbuild/
-*.X/dist/
-*.X/nbdist/
-*.X/nbactions.xml
-*.X/nb-configuration.xml
-*.X/funclist
-*.X/nbproject/Makefile-*
-*.X/disassembly/
-
 # Eagle backup files.
 *.s#?
 *.b#?
@@ -35,6 +11,7 @@ Simulations/*.raw
 *.b$?
 *.s$?
 *.l$?
+*~renumsch.scr
 
 # Autorouter files.
 *.pro
