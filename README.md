@@ -1,4 +1,4 @@
-# Class-A Headphone Amplifier
+# Bipolary
 
 A minimalistic discrete desktop class-A headphone amplifier.
 
