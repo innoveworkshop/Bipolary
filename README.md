@@ -2,10 +2,18 @@
 
 A minimalistic discrete desktop class-A headphone amplifier.
 
+
 ## Follow Along
 
 If you want to learn more about this project and also follow along its journey,
 check out the [project's YouTube playlist](https://www.youtube.com/playlist?list=PLbjMhZ3Qv6a8xDwKZuQG69gMUy-2NGEBN).
+
+
+## Component Library
+
+In order to keep my projects 100% consistent I've built my own Eagle library,
+which is all standardized and nice. So if you want to hack on this project be
+sure to download the [Innove Workshop Eagle library](https://github.com/innoveworkshop/InnoveWorkshop-Eagle-Library).
 
 
 ## License
