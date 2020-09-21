@@ -1,6 +1,6 @@
 # Bipolary
 
-A minimalistic discrete desktop class-A headphone amplifier.
+A minimalist discrete desktop class-A headphone amplifier.
 
 
 ## Follow Along
