@@ -381,6 +381,7 @@ UsedLibrary="D:/Electronics/Eagle/Libraries/SparkFun/SparkFun-Sensors.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/SparkFun/SparkFun-Switches.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/SparkFun/User-Submitted.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-batteries.lbr"
+UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-bjts.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-boards.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-con-jst-jmc.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-con-jst-ph.lbr"
@@ -398,11 +399,10 @@ UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-opamps.lbr
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-passives.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-supply.lbr"
 UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-switches.lbr"
-UsedLibrary="D:/Electronics/Eagle/Libraries/InnoveWorkshop/lbr/innove-bjts.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="1975 552 2574 951"
+Loc="1971 182 2570 581"
 State=2
 Number=0
 
