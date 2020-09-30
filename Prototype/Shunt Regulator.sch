@@ -6258,25 +6258,24 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <part name="GND2" library="innove-supply" deviceset="GND" device=""/>
 <part name="+15V3" library="innove-supply" deviceset="+15V" device=""/>
 <part name="GND3" library="innove-supply" deviceset="GND" device=""/>
-<part name="Q1" library="innove-bjts" deviceset="BC547" device=""/>
-<part name="Q2" library="innove-bjts" deviceset="BC559" device=""/>
-<part name="Q4" library="innove-bjts" deviceset="TIP32" device=""/>
+<part name="Q5" library="innove-bjts" deviceset="BC547" device=""/>
+<part name="Q1" library="innove-bjts" deviceset="BC559" device=""/>
+<part name="Q2" library="innove-bjts" deviceset="TIP32" device=""/>
 <part name="R1" library="innove-passives" deviceset="R" device="T0207" value="4k7"/>
 <part name="R2" library="innove-passives" deviceset="R" device="T0207" value="6R8"/>
-<part name="+15V4" library="innove-supply" deviceset="+15V" device=""/>
 <part name="+15V5" library="innove-supply" deviceset="+15V" device=""/>
+<part name="+15V4" library="innove-supply" deviceset="+15V" device=""/>
 <part name="GND4" library="innove-supply" deviceset="GND" device=""/>
-<part name="Q5" library="innove-bjts" deviceset="BC559" device=""/>
-<part name="Q6" library="innove-bjts" deviceset="BC559" device=""/>
-<part name="R3" library="innove-passives" deviceset="R" device="T0207" value="220"/>
-<part name="R4" library="innove-passives" deviceset="R" device="T0207" value="10k"/>
+<part name="Q3" library="innove-bjts" deviceset="BC559" device=""/>
+<part name="Q4" library="innove-bjts" deviceset="BC559" device=""/>
+<part name="R4" library="innove-passives" deviceset="R" device="T0207" value="220"/>
+<part name="R3" library="innove-passives" deviceset="R" device="T0207" value="10k"/>
 <part name="GND5" library="innove-supply" deviceset="GND" device=""/>
-<part name="Q3" library="innove-bjts" deviceset="TIP32" device=""/>
+<part name="Q6" library="innove-bjts" deviceset="TIP32" device=""/>
 <part name="LED1" library="innove-leds" deviceset="LED" device="5MM" value="Red"/>
 <part name="C3" library="innove-passives" deviceset="CPOL" device="-E5-10" value="1000u"/>
 <part name="GND6" library="innove-supply" deviceset="GND" device=""/>
 <part name="GND7" library="innove-supply" deviceset="GND" device=""/>
-<part name="C2" library="innove-passives" deviceset="CPOL" device="-E5-10" value="1000u"/>
 <part name="C4" library="innove-passives" deviceset="CPOL" device="-E2.5-6" value="100u"/>
 <part name="R5" library="rcl" deviceset="R-TRIMM" device="3296Y" value="100k"/>
 <part name="GND8" library="innove-supply" deviceset="GND" device=""/>
@@ -6288,6 +6287,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <part name="CN3" library="innove-con-jst-xh" deviceset="B2B-XH-A" device=""/>
 <part name="GND11" library="innove-supply" deviceset="GND" device=""/>
 <part name="GND12" library="innove-supply" deviceset="GND" device=""/>
+<part name="C2" library="innove-passives" deviceset="CPOL" device="-E2.5-6" value="100u"/>
 </parts>
 <sheets>
 <sheet>
@@ -6303,25 +6303,24 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <instance part="GND2" gate="1" x="43.18" y="137.16"/>
 <instance part="+15V3" gate="G$1" x="53.34" y="154.94"/>
 <instance part="GND3" gate="1" x="53.34" y="137.16"/>
-<instance part="Q1" gate="G$1" x="114.3" y="55.88" rot="MR0"/>
-<instance part="Q2" gate="G$1" x="93.98" y="127" rot="MR0"/>
-<instance part="Q4" gate="G$1" x="99.06" y="116.84"/>
+<instance part="Q5" gate="G$1" x="114.3" y="55.88" rot="MR0"/>
+<instance part="Q1" gate="G$1" x="93.98" y="127" rot="MR0"/>
+<instance part="Q2" gate="G$1" x="99.06" y="116.84"/>
 <instance part="R1" gate="G$1" x="91.44" y="106.68" rot="R90"/>
 <instance part="R2" gate="G$1" x="101.6" y="137.16" rot="R90"/>
-<instance part="+15V4" gate="G$1" x="101.6" y="144.78"/>
-<instance part="+15V5" gate="G$1" x="91.44" y="137.16"/>
+<instance part="+15V5" gate="G$1" x="101.6" y="144.78"/>
+<instance part="+15V4" gate="G$1" x="91.44" y="137.16"/>
 <instance part="GND4" gate="1" x="91.44" y="99.06"/>
-<instance part="Q5" gate="G$1" x="104.14" y="88.9" rot="MR0"/>
-<instance part="Q6" gate="G$1" x="109.22" y="78.74"/>
-<instance part="R3" gate="G$1" x="111.76" y="99.06" rot="R90"/>
-<instance part="R4" gate="G$1" x="101.6" y="68.58" rot="R90"/>
+<instance part="Q3" gate="G$1" x="104.14" y="88.9" rot="MR0"/>
+<instance part="Q4" gate="G$1" x="109.22" y="78.74"/>
+<instance part="R4" gate="G$1" x="111.76" y="99.06" rot="R90"/>
+<instance part="R3" gate="G$1" x="101.6" y="68.58" rot="R90"/>
 <instance part="GND5" gate="1" x="101.6" y="60.96"/>
-<instance part="Q3" gate="G$1" x="147.32" y="68.58"/>
+<instance part="Q6" gate="G$1" x="147.32" y="68.58"/>
 <instance part="LED1" gate="G$1" x="106.68" y="43.18"/>
 <instance part="C3" gate="G$1" x="116.84" y="43.18"/>
 <instance part="GND6" gate="1" x="106.68" y="35.56"/>
 <instance part="GND7" gate="1" x="116.84" y="35.56"/>
-<instance part="C2" gate="G$1" x="53.34" y="147.32"/>
 <instance part="C4" gate="G$1" x="124.46" y="88.9"/>
 <instance part="R5" gate="G$1" x="137.16" y="55.88" rot="R180"/>
 <instance part="GND8" gate="1" x="137.16" y="45.72"/>
@@ -6333,6 +6332,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <instance part="CN3" gate="G$1" x="187.96" y="81.28"/>
 <instance part="GND11" gate="1" x="180.34" y="96.52"/>
 <instance part="GND12" gate="1" x="180.34" y="71.12"/>
+<instance part="C2" gate="G$1" x="53.34" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -6359,7 +6359,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -6377,7 +6377,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="Q3" gate="G$1" pin="C"/>
+<pinref part="Q6" gate="G$1" pin="C"/>
 <wire x1="149.86" y1="60.96" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6417,20 +6417,20 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="+15V4" gate="G$1" pin="+15V"/>
+<pinref part="+15V5" gate="G$1" pin="+15V"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="E"/>
-<pinref part="+15V5" gate="G$1" pin="+15V"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="+15V4" gate="G$1" pin="+15V"/>
 <wire x1="91.44" y1="134.62" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="91.44" y1="111.76" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="B"/>
+<pinref part="Q2" gate="G$1" pin="B"/>
 <wire x1="91.44" y1="116.84" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
 <junction x="91.44" y="116.84"/>
@@ -6439,22 +6439,22 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="101.6" y1="127" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="E"/>
+<pinref part="Q2" gate="G$1" pin="E"/>
 <wire x1="101.6" y1="121.92" x2="101.6" y2="127" width="0.1524" layer="91"/>
 <junction x="101.6" y="127"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="OUTPUT" class="0">
 <segment>
-<pinref part="Q4" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="G$1" pin="C"/>
 <wire x1="101.6" y1="111.76" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="E"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
 <wire x1="101.6" y1="106.68" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="93.98" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="106.68" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <junction x="101.6" y="106.68"/>
@@ -6486,10 +6486,10 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="Q6" gate="G$1" pin="E"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="Q4" gate="G$1" pin="E"/>
 <wire x1="111.76" y1="93.98" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="B"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <junction x="111.76" y="88.9"/>
@@ -6497,22 +6497,22 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="C"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="B"/>
+<pinref part="Q4" gate="G$1" pin="B"/>
 <wire x1="101.6" y1="78.74" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="73.66" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <junction x="101.6" y="78.74"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="B"/>
-<pinref part="Q6" gate="G$1" pin="C"/>
+<pinref part="Q6" gate="G$1" pin="B"/>
+<pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="144.78" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="68.58" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
 <wire x1="111.76" y1="60.96" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <junction x="111.76" y="68.58"/>
 </segment>
@@ -6525,7 +6525,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <wire x1="106.68" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="48.26" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
 <wire x1="111.76" y1="50.8" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <junction x="111.76" y="48.26"/>
 </segment>
@@ -6534,7 +6534,7 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <wire x1="124.46" y1="83.82" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="Q5" gate="G$1" pin="B"/>
 <wire x1="124.46" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="S"/>
 <wire x1="132.08" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
@@ -6544,13 +6544,20 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <net name="N$9" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<pinref part="Q3" gate="G$1" pin="E"/>
+<pinref part="Q6" gate="G$1" pin="E"/>
 <wire x1="149.86" y1="81.28" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,130.122,89.4818,FRAME1,,,,,"/>
+<approved hash="113,1,25.1629,147.769,CN1,,,,,"/>
+<approved hash="113,1,148.459,88.9,JP1,,,,,"/>
+<approved hash="113,1,188.197,107.129,CN2,,,,,"/>
+<approved hash="113,1,188.197,81.7287,CN3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
