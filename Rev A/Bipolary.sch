@@ -6401,7 +6401,7 @@ MC33264 - 10.4°C/W - H 38.1mm&lt;/p&gt;</description>
 <wire x1="50.8" y1="53.34" x2="50.8" y2="27.94" width="0.1524" layer="98" style="longdash"/>
 <wire x1="50.8" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="98" style="longdash"/>
 <wire x1="17.78" y1="27.94" x2="17.78" y2="53.34" width="0.1524" layer="98" style="longdash"/>
-<text x="30.48" y="30.48" size="2.54" layer="98" align="bottom-center">Mounting</text>
+<text x="34.29" y="30.48" size="2.54" layer="98" align="bottom-center">Mounting</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

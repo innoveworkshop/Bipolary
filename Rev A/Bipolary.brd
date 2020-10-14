@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -154,10 +154,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="89" y2="0" width="0" layer="20"/>
-<wire x1="89" y1="0" x2="89" y2="89" width="0" layer="20"/>
-<wire x1="89" y1="89" x2="0" y2="89" width="0" layer="20"/>
-<wire x1="0" y1="89" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="85" y1="89" x2="5" y2="89" width="0" layer="20"/>
+<wire x1="5" y1="89" x2="0" y2="85" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="85" x2="0" y2="5" width="0" layer="20"/>
+<wire x1="0" y1="5" x2="5" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="5" y1="0" x2="85" y2="0" width="0" layer="20"/>
+<wire x1="85" y1="0" x2="89" y2="5" width="0" layer="20" curve="90"/>
+<wire x1="89" y1="5" x2="89" y2="85" width="0" layer="20"/>
+<wire x1="89" y1="85" x2="85" y2="89" width="0" layer="20" curve="90"/>
 <text x="20.32" y="84.455" size="2.1844" layer="21" font="vector" ratio="20" rot="SR180" align="center">12VAC</text>
 <text x="26.67" y="11.43" size="1.27" layer="21" ratio="20" align="bottom-center">17V</text>
 <text x="19.05" y="11.43" size="1.27" layer="21" ratio="20" align="bottom-center">12V</text>
