@@ -1,3 +1,8 @@
+# AutoCAD files.
+*.bak
+*.dwl
+*.dwl2
+
 # LTSpice.
 Simulations/*.log
 Simulations/*.net
