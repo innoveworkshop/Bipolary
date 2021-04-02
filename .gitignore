@@ -1,7 +1,12 @@
+# R / RStudio
+.Rhistory
+
 # AutoCAD files.
 *.bak
 *.dwl
 *.dwl2
+plot.log
+*.ds$
 
 # LTSpice.
 Simulations/*.log
@@ -54,3 +59,4 @@ CAM/
 *.*~
 .DS_Store
 
+.Rproj.user
