@@ -13,7 +13,6 @@ library(ggplot2)
 
 # Load Data ----
 freq_response <- readr::read_csv("./Measurements/Frequency Response.csv") %>% clean_names()
-output_levels <- readr::read_csv("./Measurements/Output Levels.csv") %>% clean_names()
 
 # Function Definitions ----
 # Clean up data frame column names. (https://www.r-bloggers.com/2019/07/clean-consistent-column-names/)
@@ -65,6 +64,32 @@ plot_frequency_response <- function (start_freq = 1, stop_freq = 100000) {
   # Make the dataset friendlier to ggplot2.
   dt <- reshape2::melt(dt, id.vars = "frequency")
 
+  # Setup the plot.
+  g <- ggplot(dt, aes(x = frequency, y = value, color = variable)) +
+    geom_smooth(method = "lm", formula = y ~ poly(x, 12), se = FALSE, size = 1) +
+    labs(x = "Frequency (Hz)", y = "Magnitude (dB)") +
+    theme(legend.position = "bottom") +
+    scale_color_discrete(name = "", labels = c("Unloaded", "30\u03a9", "150\u03a9")) +
+    scale_x_log10(labels = scales::label_number_si()) + annotation_logticks(sides = "b")
+  
+  return(g)
+}
+
+# Plots the frequency response of the amplifier.
+plot_frequency_response <- function (start_freq = 1, stop_freq = 100000) {
+  # Only get measurements between the range the user wants to plot.
+  dt <- dplyr::filter(freq_response,
+                      dplyr::between(frequency, start_freq, stop_freq))
+  
+  # Convert values to decibels.
+  refs <- apply(freq_response, MARGIN = 2, function (x) max(x, na.rm = TRUE))
+  dt <- transform(dt, unloaded = to_decibel(unloaded, refs[["unloaded"]]))
+  dt <- transform(dt, n30_ohms = to_decibel(n30_ohms, refs[["n30_ohms"]]))
+  dt <- transform(dt, n150_ohms = to_decibel(n150_ohms, refs[["n150_ohms"]]))
+  
+  # Make the dataset friendlier to ggplot2.
+  dt <- reshape2::melt(dt, id.vars = "frequency")
+  
   # Setup the plot.
   g <- ggplot(dt, aes(x = frequency, y = value, color = variable)) +
     geom_smooth(method = "lm", formula = y ~ poly(x, 12), se = FALSE, size = 1) +
