@@ -1,5 +1,6 @@
 # R / RStudio
 .Rhistory
+.RData
 
 # AutoCAD files.
 *.bak
